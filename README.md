@@ -13,12 +13,19 @@ An instructional video (don_doff_background.mov, 8MB) is removed to save space.
 
 All native libraries required are shipped with the APK, as are all the Glass fonts.
 
+For the camera, instead of calling Camera.open() to get the rear facing camera, Camera.open(0) is called to get the first camera,
+ as the Nexus 7 doesn't have a rear camera.
+
 ### Install
 
-Download from http://zhuowei.github.io/Xenologer/glasshome-modded.apk .
+Download the APK:
 
-Install just like any other boring APK. Google Glass Home doesn't need system privilages, but it might force close less often if it is a system app. 
-Haven't checked though.
+Home: http://zhuowei.github.io/Xenologer/glasshome-modded.apk
+Camera: http://zhuowei.github.io/Xenologer/glasscamera-modded.apk
+
+Install just like any other boring APK. Google Glass Home doesn't need system privilages, but it might force close less often if it is a system app,
+as Google Glass apps frequently try to turn off the screen, causing force closes when they don't have the power permission. 
+However, I do not recommend installing these APKs as system APKs, as the Glass apps will attempt to reboot the phone after a force close.
 
 ### Credits/License
 
