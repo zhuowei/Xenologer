@@ -24,16 +24,17 @@ Home: http://zhuowei.github.io/Xenologer/glasshome-modded.apk
 
 Camera: http://zhuowei.github.io/Xenologer/glasscamera-modded.apk
 
-Install just like any other boring APK. Google Glass Home doesn't need system privilages, but it might force close less often if it is a system app,
-as Google Glass apps frequently try to turn off the screen, causing force closes when they don't have the power permission. 
-However, I do not recommend installing these APKs as system APKs, as the Glass apps will attempt to reboot the phone after a force close.
+Maps: http://zhuowei.github.io/Xenologer/glassmaps-modded.apk
+
+Install just like any other boring APK. None of the Google Glass apps need system privilages.
+I do not recommend installing these APKs as system APKs, as the Glass apps will attempt to reboot the phone after a force close.
 
 ### Glass apps that won't be converted
 
-GlassSound.apk: installs and runs without modification. Get a copy from any XE5 system dump.
+GlassSound.apk: installs and runs without modification. Get a copy from any XE5 system dump. Not essential for Glass; Glass will just run muted without it.
 
 GlassPhotosphere.apk: As stated by http://www.studio8apps.com/running-google-glass-photo-sphere-viewer-on-android-phone/ , runs (for the easter egg) without modification.
-Again, any dumped copy from a XE5 should run fine.
+Again, any dumped copy from a XE5 should run fine. Not essential to Glass.
 
 ### Credits/License
 
