@@ -29,12 +29,13 @@ Maps: http://zhuowei.github.io/Xenologer/glassmaps-modded.apk
 Setup: http://zhuowei.github.io/Xenologer/glassmaps-modded.apk This one's been modified so that instead of scanning a barcode,
 it uses the existing Google Account to setup and then force closes.
 
-Hangouts (untested): http://zhuowei.github.io/Xenologer/glasshangouts-modded.apk
-
 Install just like any other boring APK. None of the Google Glass apps need system privilages.
 I do not recommend installing these APKs as system APKs, as the Glass apps will attempt to reboot the phone after a force close.
 
 ### Glass apps that won't be converted
+
+Hangouts: crashes on Android 4.2 due to a change in the underlying Android code. 
+If you have another version of Android, try http://zhuowei.github.io/Xenologer/glasshangouts-modded.apk
 
 GlassSound.apk: installs and runs without modification. Get a copy from any XE5 system dump. Not essential for Glass; Glass will just run muted without it.
 
