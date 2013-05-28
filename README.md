@@ -26,7 +26,7 @@ Camera: http://zhuowei.github.io/Xenologer/glasscamera-modded.apk
 
 Maps: http://zhuowei.github.io/Xenologer/glassmaps-modded.apk
 
-Setup: http://zhuowei.github.io/Xenologer/glassmaps-modded.apk This one's been modified so that instead of scanning a barcode,
+Setup: http://zhuowei.github.io/Xenologer/glasssetup-modded.apk This one's been modified so that instead of scanning a barcode,
 it uses the existing Google Account to setup and then force closes.
 
 Install just like any other boring APK. None of the Google Glass apps need system privilages.
