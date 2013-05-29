@@ -26,7 +26,7 @@ Camera: http://zhuowei.github.io/Xenologer/glasscamera-modded.apk
 
 Maps: http://zhuowei.github.io/Xenologer/glassmaps-modded.apk
 
-Setup: http://zhuowei.github.io/Xenologer/glassmaps-modded.apk This one's been modified so that instead of scanning a barcode,
+Setup: http://zhuowei.github.io/Xenologer/glasssetup-modded.apk This one's been modified so that instead of scanning a barcode,
 it uses the existing Google Account to setup and then force closes.
 
 Install just like any other boring APK. None of the Google Glass apps need system privilages.
@@ -41,6 +41,12 @@ GlassSound.apk: installs and runs without modification. Get a copy from any XE5 
 
 GlassPhotosphere.apk: As stated by http://www.studio8apps.com/running-google-glass-photo-sphere-viewer-on-android-phone/ , runs (for the easter egg) without modification.
 Again, any dumped copy from a XE5 should run fine. Not essential to Glass.
+
+### Tutorials and guides
+
+Need help? Want to help? Check out the [Wiki page](https://github.com/zhuowei/Xenologer/wiki/Tips-and-Tricks).
+
+Tutorial by tonystark23: http://www.youtube.com/watch?v=fNsu9xvpdNw
 
 ### Building these APKs from the modified dump
 
