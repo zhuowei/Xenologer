@@ -32,6 +32,11 @@ it uses the existing Google Account to setup and then force closes.
 Install just like any other boring APK. None of the Google Glass apps need system privilages.
 I do not recommend installing these APKs as system APKs, as the Glass apps will attempt to reboot the phone after a force close.
 
+For more fun, download the modified MyGlass companion application from http://zhuowei.github.io/Xenologer/myglass-modded.apk 
+onto another companion phone and connect to the Glass device with it.
+
+Thanks to @mralext20 for the copy of MyGlass!
+
 ### Glass apps that won't be converted
 
 Hangouts: crashes on Android 4.2 due to a change in the underlying Android code. 
