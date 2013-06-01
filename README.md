@@ -16,6 +16,8 @@ All native libraries required are shipped with the APK, as are all the Glass fon
 For the camera, instead of calling Camera.open() to get the rear facing camera, Camera.open(0) is called to get the first camera,
  as the Nexus 7 doesn't have a rear camera.
 
+For Home, removed the connectivity check for voice commands
+
 ### Install
 
 Download the APK:
@@ -32,8 +34,9 @@ it uses the existing Google Account to setup and then force closes.
 Install just like any other boring APK. None of the Google Glass apps need system privilages.
 I do not recommend installing these APKs as system APKs, as the Glass apps will attempt to reboot the phone after a force close.
 
-For more fun, download the modified MyGlass companion application from http://zhuowei.github.io/Xenologer/myglass-modded.apk 
-onto another companion phone and connect to the Glass device with it.
+For more fun, install Recolada (see below), start it, then download the official MyGlass companion (can't download in your country? 
+https://www.dropbox.com/s/5u88xt3iqd0wndw/com.google.glass.companion-130-v1.3.0.apk )
+onto another companion phone and connect to the Glass device with MyGlass.
 
 Thanks to @mralext20 for the copy of MyGlass!
 
@@ -47,11 +50,16 @@ GlassSound.apk: installs and runs without modification. Get a copy from any XE5 
 GlassPhotosphere.apk: As stated by http://www.studio8apps.com/running-google-glass-photo-sphere-viewer-on-android-phone/ , runs (for the easter egg) without modification.
 Again, any dumped copy from a XE5 should run fine. Not essential to Glass.
 
+GlassBluetooth.apk: Doesn't work properly; you don't need it as I made a clone of the Identity Service part of it at http://zhuowei.github.io/Xenologer/util/Recolada-release.apk 
+for connecting with MyGlass. Tap the Recolada app icon to start the background Identity Service.
+
 ### Tutorials and guides
 
 Need help? Want to help? Check out the [Wiki page](https://github.com/zhuowei/Xenologer/wiki/Tips-and-Tricks).
 
 Tutorial by tonystark23: http://www.youtube.com/watch?v=fNsu9xvpdNw
+
+Virtual DPad app for navigating around Glass by Androguide: https://github.com/Androguide/GLASSInput/blob/master/GlassInput.apk?raw=true
 
 ### Building these APKs from the modified dump
 
