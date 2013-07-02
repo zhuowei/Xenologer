@@ -22,6 +22,10 @@ Home: http://zhuoweizhang.net/Xenologer/glasshome-modded.apk
 
 Voice: http://zhuoweizhang.net/Xenologer/glassvoice-modded.apk
 
+Browser: http://zhuoweizhang.net/Xenologer/glassbrowser-modded.apk
+
+People: http://zhuoweizhang.net/Xenologer/glasspeople-modded.apk
+
 ### Coming soon
 
 Camera: http://zhuoweizhang.net/Xenologer/xe6/glasscamera-modded.apk
