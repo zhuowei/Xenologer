@@ -1,4 +1,4 @@
-## Xenologer: repackaging Google Glass XE5 APKs to run on other devices
+## Xenologer: repackaging Google Glass XE7 APKs to run on other devices
 
 Google Glass's build process is fairly conservative - they don't use hidden APIs often, and when they do, they use reflection. 
 Thus, it is relatively easy to repackage the Glass APKs for other devices.
@@ -16,15 +16,19 @@ For the camera, instead of calling Camera.open() to get the rear facing camera, 
 
 ### Install
 
-Download the APK: These were extracted from the official XE6 system image.
+Download the APK: These were extracted from the official XE7 system image.
 
-Home: http://zhuowei.github.io/Xenologer/glasshome-modded.apk
+Home: http://zhuoweizhang.net/Xenologer/glasshome-modded.apk
 
-Camera: http://zhuowei.github.io/Xenologer/glasscamera-modded.apk
+Voice: http://zhuoweizhang.net/Xenologer/glassvoice-modded.apk
+
+### Coming soon
+
+Camera: http://zhuoweizhang.net/Xenologer/xe6/glasscamera-modded.apk
 
 This is based on a XE6 APK, but have the XE6 features disabled as they crash the camera.
 
-Bluetooth: http://zhuowei.github.io/Xenologer/glassbluetooth-modded.apk 
+Bluetooth: http://zhuoweizhang.net/Xenologer/xe6/glassbluetooth-modded.apk 
 
 this is modified to include an icon in the app grid in case it doesn't start on reboot.
 Also, the Bluetooth headset functionality is disabled.
@@ -38,19 +42,18 @@ onto another companion phone and connect to the Glass device with MyGlass.
 
 Thanks to @mralext20 for the copy of MyGlass!
 
-### Coming soon
 
-Maps: use the XE5 version for now. http://zhuowei.github.io/Xenologer/xe5/glassmaps-modded.apk
+Maps: use the XE5 version for now. http://zhuoweizhang.net/Xenologer/xe5/glassmaps-modded.apk
 
-Setup: use the XE5 version for now. http://zhuowei.github.io/Xenologer/xe5/glasssetup-modded.apk This one's been modified so that instead of scanning a barcode,
+Setup: use the XE5 version for now. http://zhuoweizhang.net/Xenologer/xe5/glasssetup-modded.apk This one's been modified so that instead of scanning a barcode,
 it uses the existing Google Account to setup and then force closes.
 
 ### Glass apps that won't be converted
 
 Hangouts: crashes on Android 4.2 due to a change in the underlying Android code. 
-If you have another version of Android, try http://zhuowei.github.io/Xenologer/glasshangouts-modded.apk
+If you have another version of Android, try http://zhuoweizhang.net/Xenologer/xe6/glasshangouts-modded.apk
 
-GlassSound.apk: installs and runs without modification. Get a copy from any XE6 system dump. Not essential for Glass; Glass will just run muted without it.
+GlassSound.apk: installs and runs without modification. Get a copy from any XE7 system dump, or at http://zhuoweizhang.net/Xenologer/xe7/GlassSound.apk Not essential for Glass; Glass will just run muted without it.
 
 GlassPhotosphere.apk: As stated by http://www.studio8apps.com/running-google-glass-photo-sphere-viewer-on-android-phone/ , runs (for the easter egg) without modification.
 Again, any dumped copy from a XE6 should run fine. Not essential to Glass.
