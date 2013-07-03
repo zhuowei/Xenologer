@@ -26,6 +26,8 @@ Browser: http://zhuoweizhang.net/Xenologer/glassbrowser-modded.apk
 
 People: http://zhuoweizhang.net/Xenologer/glasspeople-modded.apk
 
+Setup: http://zhuoweizhang.net/Xenologer/glasssetup-modded.apk (Follow http://imgur.com/a/IBqFf to use the modified Setup)
+
 ### Coming soon
 
 Camera: http://zhuoweizhang.net/Xenologer/xe6/glasscamera-modded.apk
@@ -49,9 +51,6 @@ Thanks to @mralext20 for the copy of MyGlass!
 
 Maps: use the XE5 version for now. http://zhuoweizhang.net/Xenologer/xe5/glassmaps-modded.apk
 
-Setup: use the XE5 version for now. http://zhuoweizhang.net/Xenologer/xe5/glasssetup-modded.apk This one's been modified so that instead of scanning a barcode,
-it uses the existing Google Account to setup and then force closes.
-
 ### Glass apps that won't be converted
 
 Hangouts: crashes on Android 4.2 due to a change in the underlying Android code. 
@@ -72,6 +71,8 @@ Need help? Want to help? Check out the [Wiki page](https://github.com/zhuowei/Xe
 Tutorial by tonystark23: http://www.youtube.com/watch?v=fNsu9xvpdNw
 
 Virtual DPad app for navigating around Glass by Androguide: https://github.com/Androguide/GLASSInput/blob/master/GlassInput.apk?raw=true
+
+Setting up Glass with the Setup application: http://imgur.com/a/IBqFf
 
 ### Building these APKs from the modified dump
 
